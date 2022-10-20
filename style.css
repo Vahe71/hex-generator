@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orangered;
+}
+.copyright {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.copyright h6 {
+    font: 1.5rem 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+.copyright h6::selection {
+    color: #fff;
+    background: green;
+}
+.content .title {
+    font: 2rem sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 20px;
+}
+.content .button {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font: 1.5rem sans-serif;
+    box-shadow: 2px 2px 2px #000;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.content .hex {
+    font: 2rem sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+    user-select: none;
+}
